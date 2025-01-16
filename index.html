@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Independence Day</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <meta name="description" content="Celebrate India's Independence Day with us. Share your wishes and enjoy the countdown to 15th August.">
+</head>
+<body>
+    <header class="hero">
+        <h1>Happy Independence Day!</h1>
+        <p>Let's celebrate the spirit of freedom and unity.</p>
+        <div id="countdown" class="countdown"></div>
+    </header>
+
+    <!-- PopAds Integration -->
+    <script type="text/javascript">
+        var popunder = {key: 'YOUR_POPADS_KEY'}; // Replace YOUR_POPADS_KEY with your actual key
+    </script>
+    <script type="text/javascript" src="https://cdn.popcash.net/js/pop.js"></script>
+
+    <!-- User Wishes Section -->
+    <section class="wishes">
+        <h2>Share Your Wishes</h2>
+        <form id="wishForm">
+            <textarea id="userWish" placeholder="Write your wish here..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="wishList" class="wish-list">
+            <h3>Wishes from Others:</h3>
+            <ul id="wishItems"></ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Independence Day Celebration. All rights reserved.</p>
+    </footer>
+</body>
+</html>
